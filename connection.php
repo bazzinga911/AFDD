@@ -8,7 +8,7 @@ else {
   echo "Connected";
 }
 
-$con= mysqli_connect("localhost","root","zim_201814016") or die ("could not connect to mysql");
+/*$con= mysqli_connect("localhost","root","201814032") or die ("could not connect to mysql");
 
 mysqli_select_db($con,"afdd") or die ("no database");
 echo "Connected";
@@ -16,7 +16,7 @@ echo "Connected";
 
 $servername = "localhost";
 $username = "root";
-$password = "zim_201814016";
+$password = "201814032";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password);
@@ -26,6 +26,6 @@ if (!$conn) {
   echo "not Connected";
   ///die("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+echo "Connected successfully";*/
 
 ?>
