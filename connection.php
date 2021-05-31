@@ -3,10 +3,10 @@ $conn=mysqli_connect("localhost:3310","root","","afdd");
 if(mysqli_connect_error())
 {
   echo "Cannot connect";
-}/*
+}
 else {
   echo "Connected";
-}*/
+}
 /*
 $con= mysqli_connect("localhost","root","zim_201814016") or die ("could not connect to mysql");
 
