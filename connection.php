@@ -7,11 +7,11 @@ if(mysqli_connect_error())
 else {
   echo "Connected";
 }
-/*
+
 $con= mysqli_connect("localhost","root","zim_201814016") or die ("could not connect to mysql");
 
 mysqli_select_db($con,"afdd") or die ("no database");
-echo "Connected";*/
+echo "Connected";
 
 /*
 $servername = "localhost";
