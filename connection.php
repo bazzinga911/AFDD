@@ -13,7 +13,7 @@ $con= mysqli_connect("localhost","root","zim_201814016") or die ("could not conn
 mysqli_select_db($con,"afdd") or die ("no database");
 echo "Connected";
 
-/*
+
 $servername = "localhost";
 $username = "root";
 $password = "zim_201814016";
@@ -27,5 +27,5 @@ if (!$conn) {
   ///die("Connection failed: " . mysqli_connect_error());
 }
 echo "Connected successfully";
-*/
+
 ?>
