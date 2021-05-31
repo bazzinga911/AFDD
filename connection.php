@@ -2,7 +2,7 @@
 $conn=mysqli_connect("localhost:3310","root","","afdd");
 if(mysqli_connect_error())
 {
-  echo "Cannot connect";
+  echo "Could not connect";
 }
 else {
   echo "Connected";
